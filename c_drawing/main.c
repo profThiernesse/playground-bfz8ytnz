@@ -10,15 +10,10 @@ void flower2(int, int);
 int main() {
     int tour,i;
 
-    init_drawing(500,500);
+    init_drawing(1000,550);
 
-    for(i=0;i<2;i++) {
-        draw(100);
-        turn(60,RIGHT);
-        draw(50);
-        turn(120,RIGHT);
-    }
-
+	flower2(50,8);
+	
     display_draw();
     return 0;
 }
@@ -34,7 +29,7 @@ void flower1(int length, int side) {
 void flower2(int length, int side) {
     int i;
     for (i=1;i<=side;i++) {
-        polygone(length,3);
+        polygone(length,5);
         draw(length);
         turn(360/side,RIGHT);
     }
