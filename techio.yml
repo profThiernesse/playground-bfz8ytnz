@@ -1,10 +1,25 @@
-title: C++ Project
+title: Demo Paper
 plan:
-- title: Welcome
+- title: Demo
   statement: markdowns/welcome.md
 projects:
-  cpp:
-    root: /cpp-project
+  drawing:
+    root: /c_drawing
     runner:
       name: techio/cmake-gcc-runner
+      version: latest
+  sample:
+    root: /sample
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
+  php:
+    root: /php-c
+    runner:
+      name: php
+      version: latest
+  php2:
+    root: /php-c2
+    runner:
+      name: php
       version: latest
