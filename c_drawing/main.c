@@ -38,7 +38,6 @@ void flower2(int length, int side) {
 void polygone(int length, int side) {
     int i;
     for (i=0;i<side;i++) {
-        draw_change_color(0,0,255);
         draw(length);
         turn(360/side,LEFT);
     }
