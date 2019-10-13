@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include "drawing.h"
 
+void polygone(int, int);
+void flower1(int, int);
+void flower2(int, int);
+
 int main() {
     int tour,i;
 

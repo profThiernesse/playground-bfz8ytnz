@@ -8,18 +8,3 @@ projects:
     runner:
       name: techio/cmake-gcc-runner
       version: latest
-  sample:
-    root: /sample
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
-  php:
-    root: /php-c
-    runner:
-      name: php
-      version: latest
-  php2:
-    root: /php-c2
-    runner:
-      name: php
-      version: latest
