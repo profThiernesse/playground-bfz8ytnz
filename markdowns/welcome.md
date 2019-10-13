@@ -1,14 +1,11 @@
 # Les paper
 
 Les fonctionnalités :
-- `init_paper(nb_lignes,nb_colonnes,taille)`
-- `move_left()`
-- `move_right()`
-- `move_down()`
-- `move_up()`
-- `colorize()`
-- `change_color(rouge,vert,bleu)`
-- `display_paper()`
+- `init_drawing(largeur,hauteur)` : initiale une surface de travaille aux dimensions spécifiées
+- `draw(longeur)` : trace une ligne de taille `longueur` (en pixels)
+- `turn(angle)` : modifie la direction de traçage (par défaut angle de 0° vers la droite)
+- `draw_change_color(rouge,vert,bleu)` : modifie la couleur
+- `display_draw()` : affiche le dessin réalisé
 
 # Demo Drawing
 
