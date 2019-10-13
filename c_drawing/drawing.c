@@ -27,7 +27,7 @@ void _display_draw(struct _drawing draw, struct _coordinate_lst *lst) {
 
     prec = lst->coordinate;
     lst = lst->next;
-    sprintf(buffer,"<svg height='%d' width='%d' style='border: 1px solid red'>\n",draw.height,draw.width);
+    sprintf(buffer,"<svg height='%d' width='%d' style='border: 1px solid black'>\n",draw.height,draw.width);
     fputs(buffer,fp);
     while (lst!=NULL) {
         sprintf(buffer,"<line x1='%d' y1='%d' x2='%d' y2='%d' style='stroke:rgb(%d,%d,%d);stroke-width:2' />\n",prec.x,prec.y,lst->coordinate.x,lst->coordinate.y,lst->color.red,lst->color.green,lst->color.bleue);
