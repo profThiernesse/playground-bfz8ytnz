@@ -4,7 +4,7 @@ plan:
   statement: markdowns/welcome.md
 projects:
   drawing:
-    root: /c_drawing
+    root: /math
     runner:
       name: techio/cmake-gcc-runner
       version: latest
