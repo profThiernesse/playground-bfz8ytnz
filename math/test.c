@@ -7,4 +7,6 @@ int mail() {
 	
 	a = cos(3.14);
 	
+	printf("%f",a);
+	
 }
