@@ -1,7 +1,4 @@
 #!/bin/sh
 
-gcc test.c -lm
-
-
-
+make && ./drawing
 echo "TECHIO> open -s /project/target/ output.html"
