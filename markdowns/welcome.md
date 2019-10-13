@@ -1,4 +1,4 @@
-# Les paper
+# Drawing
 
 Les fonctionnalités :
 - `init_drawing(largeur,hauteur)` : initiale une surface de travaille aux dimensions spécifiées
