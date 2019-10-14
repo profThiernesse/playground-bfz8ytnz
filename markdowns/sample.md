@@ -11,5 +11,5 @@ Les fonctionnalités :
 
 # Demo Drawing
 
-@[Sample paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "drawing"})
+@[Sample paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "sample"})
 

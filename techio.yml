@@ -2,6 +2,14 @@ title: Demo Drawing
 plan:
 - title: Demo
   statement: markdowns/sample.md
+- title: Execice 1
+  statement: markdowns/ex1.md
+- title: Execice 2
+  statement: markdowns/ex2.md
+- title: Execice 3
+  statement: markdowns/ex3.md
+- title: Execice 4
+  statement: markdowns/ex4.md
 projects:
   drawing:
     root: /c_drawing
