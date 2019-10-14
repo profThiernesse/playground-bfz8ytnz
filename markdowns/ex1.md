@@ -1,6 +1,6 @@
 ## Exercice 1 
 
-En utilisant les commandes fournies par la bibliothèque `drawing.h`, tracé un carré.
+En utilisant les commandes fournies par la bibliothèque `drawing.h`, tracer un carré.
 
 ![imgage exercice](Images/ex1.JPG)
 
