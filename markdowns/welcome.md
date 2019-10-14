@@ -7,7 +7,7 @@ Les fonctionnalités :
 - `draw_change_color(rouge,vert,bleu)` : Permet de définir la couleur de traçage en fixant l'intensité des composantes rouge, verte et bleu. 
 - `display_draw()` : Affiche le motif réalisé.
 
-**Remarque :** Le principe de traçage est d'utiliser un trait continu. On ne sait jamais interrompre le tracé ou se déplacer par bon vers un autre point de la zone de dessin.
+**Remarque :** Le principe de traçage est d'utiliser un trait continu. On ne sait jamais interrompre le tracé ou se déplacer par bon vers un autre point de la zone de dessin. Il est par contre possible de repasser sur un trait existant.
 
 # Demo Drawing
 
