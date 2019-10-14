@@ -5,7 +5,7 @@ En utilisant les commandes fournies par la bibliothèque `drawing.h`, écrire un
 ## Quelques polygone régulier
 
 |--------:|-------:|-------:|-------:|
-|[1](Images/ex2_A.JPG)|[2](Images/ex2_B.JPG)|[3](Images/ex2_C.JPG)|[4](Images/ex2_D.JPG)|
+|![1](Images/ex2_A.JPG)|![2](Images/ex2_B.JPG)|![3](Images/ex2_C.JPG)|![4](Images/ex2_D.JPG)|
 
 
 
