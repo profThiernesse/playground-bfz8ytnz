@@ -1,7 +1,7 @@
 # Exercice 4
 
-En utilisant les commandes fournies par la bibliothèque `drawing.h`, réaliser la forme présentée ci-dessous. Penser bien à décomposer le problème en sous-problème.
+En utilisant les commandes fournies par la bibliothèque `drawing.h`, réaliser la forme présentée ci-dessous. Les différents cotés de la forme font 50 px.
 
-![imgage exercice](Images/ex4.JPG)
+![imgage exercice](Images/ex3.JPG)
 
 @[Sample paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "drawing"})
