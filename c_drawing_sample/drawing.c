@@ -11,13 +11,13 @@ void _init_drawing(struct _drawing *draw, int width, int height) {
     draw->color.red = 0;
 }
 
-void _draw_change_color(struct _drawing * draw,unsigned char red, unsigned char green, unsigned char bleue) {
+void _change_color(struct _drawing * draw,unsigned char red, unsigned char green, unsigned char bleue) {
     draw->color.bleue = bleue;
     draw->color.green = green;
     draw->color.red = red;
 }
 
-void _display_draw(struct _drawing draw, struct _coordinate_lst *lst) {
+void _display_drawing(struct _drawing draw, struct _coordinate_lst *lst) {
 
     struct _coordinate prec;
     FILE *fp;
@@ -95,12 +95,12 @@ void init_drawing(int width, int height) {
     _init_drawing(&_the_draw,width,height);
 }
 
-void display_draw() {
-    _display_draw(_the_draw,_movements);
+void display_drawing() {
+    _display_drawing(_the_draw,_movements);
 }
 
-void draw_change_color(unsigned char red, unsigned char green, unsigned char bleue) {
-    _draw_change_color(&_the_draw,red,green,bleue);
+void change_color(unsigned char red, unsigned char green, unsigned char bleue) {
+    _change_color(&_the_draw,red,green,bleue);
 }
 
 void turn(int angle, int side) {

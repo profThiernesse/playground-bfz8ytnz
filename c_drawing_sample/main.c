@@ -15,7 +15,7 @@ int main() {
         turn(120,LEFT);
     }    
     
-    display_draw();
+    display_drawing();
 
     return 0;
 }
