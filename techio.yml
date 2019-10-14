@@ -1,10 +1,15 @@
 title: Demo Drawing
 plan:
 - title: Demo
-  statement: markdowns/welcome.md
+  statement: markdowns/sample.md
 projects:
   drawing:
     root: /c_drawing
     runner:
       name: techio/cmake-gcc-runner
       version: latest
+  sample:
+    root: /c_drawing_sample
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest      
