@@ -5,7 +5,7 @@
 int main() {
     int i; 
 
-    init_drawing(1050,500);
+    init_drawing(1050,500,0.5);
     
     
     for (i=0;i<2;i++) {

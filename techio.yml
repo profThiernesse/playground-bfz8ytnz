@@ -1,6 +1,6 @@
-title: Demo Drawing
+title: Drawing
 plan:
-- title: Demo
+- title: Introduction
   statement: markdowns/sample.md
 - title: Exercice 1
   statement: markdowns/ex1.md
