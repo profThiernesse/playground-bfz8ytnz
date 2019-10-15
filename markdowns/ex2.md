@@ -1,6 +1,6 @@
 # Exercice 2
 
-En utilisant les commandes fournies par la bibliothèque `drawing.h`, tracer le motif ci-dessous. Attention, il est interdit de passer 2 fois sur le même trait.
+En utilisant les commandes fournies par la bibliothèque `drawing.h`, tracer le motif ci-dessous. Attention, il est interdit de passer 2 fois sur le même trait et de lever le crayon.
 
 ![Image Exercice](Images/ex2.JPG)
 
